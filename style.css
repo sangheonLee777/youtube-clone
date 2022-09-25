@@ -1,0 +1,86 @@
+
+
+body {
+  padding: 0 15px;
+}
+
+.main-hashtag {
+  display: flex;
+  color: blue;
+}
+
+.main-hashtag li {
+  padding: 5px 10px;
+}
+
+.main-title {
+  margin: 10px 0;
+  display: flex;
+}
+
+.main-title__text {
+  font-size: 22px;
+  font-weight: 600;
+  margin-right: 10px;
+}
+
+.main-views {
+  font-size: 15px;
+  font-weight: 500;
+  opacity: .5;
+  margin-bottom: 10px;
+}
+
+.main-icons {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.4);
+  padding-top: 18px;
+  padding-bottom: 30px;
+}
+
+.main-icons__icon {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.main-icons__icon i{
+  font-size: 23px;
+  margin: 15px 0;
+}
+
+.main-icons__icon i{
+  opacity: .6;
+}
+
+.main-icons__icon .fa-thumbs-up {
+  color: blue;
+  opacity: 1;
+}
+
+.main-icons__icon span {
+  font-size: 14px;
+  font-weight: 600;
+  
+}
+
+.main-profile img {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  margin-right: 15px;
+}
+
+
+.main-profile {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.4);
+}
+
+.main-profile__column {
+  display: flex;
+  align-items: center;
+}
